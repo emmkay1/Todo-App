@@ -1,0 +1,25 @@
+{
+  "short_name": "Todo List App",
+  "name": "A simple Todo List App",
+  "icons": [
+    {
+      "src": "task.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "task128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "task512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

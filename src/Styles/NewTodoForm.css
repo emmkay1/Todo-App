@@ -1,0 +1,31 @@
+.todo-form {
+    margin-bottom: 20px;
+}
+
+#input-container {
+    display: flex;
+}
+
+input[type=text] {
+    width: 70%;
+    margin-right: 3px;
+    padding: 14px 20px;
+    border: none;
+    /* box-sizing: border-box */
+}
+
+input[type=submit] {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    padding: 12px 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+    background-color: #4b6cb7;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bolder;
+}

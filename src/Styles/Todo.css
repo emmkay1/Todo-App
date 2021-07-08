@@ -1,0 +1,40 @@
+.todo-container {
+    margin-left: -50px;
+    margin-right: -50px;
+}
+
+.update-form-container {
+    display: flex;
+}
+
+.Todo {
+    background-color: rgba(163, 183, 228, 0.5);
+    margin-top: 4px;
+    padding: 20px 50px;
+}
+
+.delete {
+    float: right;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.edit {
+    float: right;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+#span-todo-text {
+    display: inline-block;
+    width: 230px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.todo-text {
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, .3);
+    transition: ease-in 1s;
+}
