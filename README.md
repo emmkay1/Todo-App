@@ -1,2 +1,2 @@
 # Todo-App
-Created with CodeSandbox
+Todo App created using React.
