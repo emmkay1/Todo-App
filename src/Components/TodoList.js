@@ -44,7 +44,7 @@ class TodoList extends Component {
     return (
       <div className="TodoList">
         <h1>
-          Todo List!<span className="sub-header">A Simple Todo List App</span>
+          TodoEase!<span className="sub-header">A Minimal To-Do List App</span>
         </h1>
         <NewTodoForm addTodo={this.addTodo} />
         {this.displayTodos()}
